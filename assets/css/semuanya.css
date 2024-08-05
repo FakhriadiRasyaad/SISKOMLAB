@@ -1,0 +1,257 @@
+/* MODUL */
+
+/* MODUL */
+
+h2, p, h5 {
+    text-align: center; /* Menjadikan tulisan berada di tengah secara horizontal */
+}
+
+p {
+    margin-top: 20px;
+}
+
+p strong {
+    font-size: 24px; /* Ubah ukuran sesuai kebutuhan */
+}
+/* CSS untuk membuat tulisan h2 menjadi lebih besar */
+h2.display-3 {
+    font-size: 4rem; /* Ukuran font besar */
+    font-weight: bold;
+}
+/* CSS untuk memastikan tulisan dalam card berada di tengah */
+.modul-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Menjadikan card berada di tengah secara horizontal */
+}
+.modul-section .col-md-4 {
+    flex: 1 0 30%; /* 3 kolom dalam satu baris */
+    margin-bottom: 20px; /* Spasi vertikal antara baris */
+    box-sizing: border-box;
+}
+
+.modul-section .card {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Menjadikan konten card berada di tengah secara vertikal */
+    text-align: center; /* Menjadikan tulisan berada di tengah secara horizontal */
+}
+.crop-img {
+    overflow: hidden;
+    height: 100%;
+}
+
+.crop-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+
+/* BATAS SEARCH BAR*/
+.hero-section {
+    background-image: linear-gradient(1deg, #1f3254 0%, #152137 50%, #131e32 100%);
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-section .input-group {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero-section input[type="search"] {
+    border: 0;
+    box-shadow: none;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    outline: none;
+}
+
+.hero-section button[type="submit"] {
+    background-color: #26791F;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-section button[type="submit"]:hover,
+.hero-section button[type="submit"]:focus {
+    background-color: #26791F;
+}
+
+.custom-form .form-control {
+    border-radius: 50px;
+    color: black;
+    margin-bottom: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.form-floating>label {
+    padding-left: 20px;
+}
+
+.custom-form button[type="submit"] {
+    background: #26791F;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s;
+    margin-bottom: 0;
+}
+
+.custom-form button[type="submit"]:hover,
+.custom-form button[type="submit"]:focus {
+    background: #59a852;
+    border-color: transparent;
+}
+
+
+/* ASISTEN CSS */
+
+  
+.tengah {
+    width: 100%; /* Mengisi seluruh lebar layar */
+    margin: 0 auto; /* Tetap memusatkan elemen, tetapi hanya berfungsi jika ada batas lebar */
+    text-align: center; /* Untuk meratakan teks di tengah */
+    background-color: #252D4A; /* Warna latar belakang */
+}
+
+  
+  .kolom {
+      margin-bottom: 20px;
+  }
+ 
+  .tutor-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .kartu-tutor {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 10px;
+      width: 200px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  
+  .kartu-tutor img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+  }
+  
+  .kartu-tutor p, .kartu-tutor p1 {
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+  }
+  
+  .kartu-tutor p1 {
+      display: block;
+      font-size: 14px;
+      color: #555;
+      margin-top: 5px;
+  }
+  .tengah h1, .tengah h2 {
+    color: #fff; /* Mengubah warna teks menjadi putih */
+}
+
+
+  /* KONTAK */
+  .social-media-section {
+    padding: 20px;
+    background-color: #152137; /* sepenuhnya transparan */
+
+}
+
+.social-media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.social-media-card {
+    background: #fff; /* Sesuaikan dengan warna latar belakang yang diinginkan */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.social-media-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media-card img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.social-media-card p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-media-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
