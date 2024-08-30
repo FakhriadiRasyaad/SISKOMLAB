@@ -38,24 +38,58 @@ h2.display-3 {
     justify-content: center; /* Menjadikan konten card berada di tengah secara vertikal */
     text-align: center; /* Menjadikan tulisan berada di tengah secara horizontal */
 }
+/* CSS untuk memastikan gambar dengan rasio 2x1 */
 .crop-img {
+    position: relative;
     overflow: hidden;
-    height: 100%;
+    padding-top: 50%; /* Rasio 2:1 */
 }
 
 .crop-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .card-body {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.text-box {
+    background-color: #f8f9fa; /* Warna latar belakang kotak teks */
     padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
 }
 
 .card-title {
-    font-size: 1.2em;
-    margin-top: 10px;
+    font-size: 1rem;
+    margin: 0;
+    color: #333; /* Warna teks */
 }
+
+/* Responsiveness */
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 33.3333%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+
 
 
 
