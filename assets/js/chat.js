@@ -6,7 +6,7 @@ document.getElementById('whatsapp-submit').addEventListener('click', function() 
     var message = document.getElementById('message').value;
 
     // Create the mailto link
-    var recipient = 'fakhriadi06ras@gmail.com'; // Your email address
+    var recipient = 'labsiskom@365.telkomuniversity.ac.id'; // Your email address
     var subject = 'Contact Form Submission';
     var body = 'Name: ' + name + '%0D%0A' +
                'Email: ' + email + '%0D%0A' +
