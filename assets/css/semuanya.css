@@ -335,3 +335,12 @@ h2.display-3 {
 
 /* 
 Responsive Beranda */
+
+.item img {
+    width: 100%; /* Gambar mengikuti lebar container */
+    height: auto; /* Menyesuaikan tinggi gambar dengan proporsional */
+    aspect-ratio: 2 / 1; /* Menentukan rasio lebar 2 kali dari tinggi */
+    object-fit: cover; /* Menjaga gambar memenuhi area dengan rasio yang benar */
+  }
+  
+  
